@@ -1,0 +1,14 @@
+/* Laptop M */
+
+@media only screen and (max-width: 1024px) {
+
+    /* body {
+        width: 1040px;
+    } */
+    .menu-items {
+        gap: 45px;}
+
+        /* header {
+            background-size: 1024px 760px;} */
+    
+}
