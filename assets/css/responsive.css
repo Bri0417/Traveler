@@ -1,14 +1,184 @@
-    /* Laptop M */
+/* Laptop M */
 
 @media only screen and (max-width: 1024px) {
-
-    /* body {
+  /* body {
         width: 1040px;
     } */
-    .menu-items {
-        gap: 45px;}
+  .menu-items {
+    gap: 35px;
+  }
 
-        /* header {
+  /* header {
             background-size: 1024px 760px;} */
-    
+  .menu-items a {
+    font-size: 16px;
+  }
+  .logo {
+    font-size: 20px;
+  }
+  .hero-section {
+    top: 12.3pc;
+  }
+  .hero-content h1 {
+    font-size: 40px;
+    letter-spacing: -3px;
+  }
+
+  header {
+    height: 700px;
+  }
+  #category {
+    padding: 50px 0;
+  }
+  .category-items p {
+    padding: 0px 10px;
+  }
+
+  .category-items {
+    width: 200px;
+  }
+
+  .selling-card-items img {
+    width: 260px;
+  }
+  .enf-right {
+    position: relative;
+    left: 0pc;
+    height: 495px;
+  }
+  .ongoing {
+    top: -30px;
+    width: 270px;
+    left: 62px;
+  }
+
+  .enf-left h1 {
+    font-size: 33px;
+    line-height: 45px;
+    width: 85%;
+  }
+  .choose-items-group {
+    gap: 40px;
+  }
+  .choose-item p {
+    width: 225px;
+  }
+
+  .choose-bg-1 {
+    left: 4.7pc;
+  }
+  .subscribe-bg img {
+    height: 50vh;
+  }
+  #sub {
+    left: -4.5pc;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    margin: 0px 1%;
+  }
+  .logo h1 {
+    font-size: 19px;
+  }
+  .menu-items {
+    gap: 25px;
+  }
+  .nav-btn {
+    padding: 10px 15px;
+  }
+
+  header {
+    height: 600px;
+  }
+  .hero-section {
+    top: 8.3pc;
+  }
+  .hero-content h1 {
+    font-size: 30px;
+  }
+
+  .hero-content h3 {
+    font-size: 22px;
+  }
+  .hero-content a {
+    padding: 15px 25px;
+  }
+  #category {
+    margin: 0px 0%;
+  }
+  .category-items {
+    width: 270px;
+    margin-bottom: 20px;
+  }
+  .category-item-group {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .selling-card-group {
+    margin: 0 1%;
+    flex-wrap: wrap;
+  }
+  .selling-card-subtitle {
+    top: -117px;
+  }
+  .selling-card-items img {
+    width: auto;
+  }
+  .enf-left h1 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  #easy-and-fast {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 5%;
+  }
+  .enf-right {
+    position: relative;
+    left: -2pc;
+    top: 50px;
+    height: 495px;
+  }
+  .ongoing {
+    left: 105px;
+  }
+  .choose-items-group {
+    display: inline-grid;
+  }
+  .choose-bg-1 {
+    left: 11.7pc;
+  }
+  .choose-item p {
+    width: 225px;
+    position: relative;
+    left: 110px;
+  }
+  .choose-item {
+    text-align: center !important;
+    width: 500px;
+    margin-bottom: 40px;
+  }
+  .email {
+    position: relative;
+    left: 40px;
+    top: 25px;
+  }
+  .subscribe h3 {
+    font-size: 18px;
+    line-height: 45px;
+    width: 500px;
+    position: relative;
+    left: 75px;
+  }
+  .email i {
+    position: absolute;
+    top: 20px;}
+    #sub {
+      left: -3.5pc;
+      top: 10pc;
+  }
 }
